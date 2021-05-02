@@ -1,0 +1,14 @@
+.post-details-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.post-details{
+    margin-bottom: 50px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+.ant-col{
+    padding: 8px;
+}

@@ -1,0 +1,51 @@
+{
+  "posts": [
+    { "id": 1, "title": "json-server", "authorId": 1, "publishedDate": "2020-04-10" },
+    { "id": 2, "title": "json-server-2", "authorId": 1 , "publishedDate": "2020-05-10"},
+    { "id": 3, "title": "ABCD", "authorId": 2, "publishedDate": "2020-04-11" },
+    { "id": 4, "title": "ABCD-2", "authorId": 2, "publishedDate": "2020-04-12" },
+    { "id": 5, "title": "WordPress theme", "authorId": 3, "publishedDate": "2020-05-12"},
+    { "id": 6, "title": "json placeholder", "authorId": 4, "publishedDate": "2021-06-10" },
+    { "id": 7, "title": "Advance Reactjs", "authorId": 5, "publishedDate": "2021-07-10" },
+    { "id": 8, "title": "Advance VueJS", "authorId": 2, "publishedDate": "2021-04-01"},
+    { "id": 9, "title": "json placeholder", "authorId": 7, "publishedDate": "2021-06-10" },
+    { "id": 10, "title": "Advance Reactjs", "authorId": 8, "publishedDate": "2021-07-10" },
+    { "id": 11, "title": "Advance VueJS", "authorId": 9, "publishedDate": "2021-04-01"}
+  ],
+  "comments": [
+    { "id": 1, "body": "What is json server", "postId": 1 },
+    { "id": 2, "body": "why json server", "postId": 1 },
+    { "id": 3, "body": "What is theme", "postId": 5 },
+    { "id": 4, "body": "Can you list other theme", "postId": 5 },
+    { "id": 5, "body": "some comment", "postId": 1 },
+    { "id": 6, "body": "some comment", "postId": 2 },
+    { "id": 7, "body": "some comment", "postId": 5 },
+    { "id": 8, "body": "some comment", "postId": 1 },
+    { "id": 9, "body": "some comment", "postId": 9 }
+  ],
+  "likes": [
+    {"id": 1, "like": 8, "postId": 1},
+    {"id": 2, "like": 5, "postId": 2},
+    {"id": 3, "like": 6, "postId": 3},
+    {"id": 4, "like": 8, "postId": 4},
+    {"id": 5, "like": 5, "postId": 5},
+    {"id": 6, "like": 6, "postId": 6},
+    {"id": 7, "like": 8, "postId": 7},
+    {"id": 8, "like": 2, "postId": 8},
+    {"id": 9, "like": 6, "postId": 9},
+    {"id": 10, "like": 8, "postId": 10},
+    {"id": 11, "like": 5, "postId": 99},
+    {"id": 12, "like": 1, "postId": 12}
+  ],
+  "author": [{ "id": 1, "name": "typicode",
+    "email": "typ@gmail.com"
+  },
+    { "id": 2, "name": "Ravi sha", "email": "ravisha@gmail.com" } ,
+    { "id": 3, "name": "Parth sha" },
+    { "id": 4, "name": "Varsha L" }
+  ,{ "id": 5, "name": "Swati D" },
+    { "id": 6, "name": "Rishi E" },
+    { "id": 7, "name": "typicode 2" },
+    { "id": 8, "name": "Niha s" },
+    { "id": 9, "name": "Dev M" }]
+}
